@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+
+    <listeners>
+        <!-- HTML Report Listener -->
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <!-- XML Report Listener -->
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+
+    <test name="test">
+        <classes>
+            <class name="Utils.TestngClass"/>
+        </classes>
+    </test>
+</suite>
